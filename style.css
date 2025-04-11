@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+body{
+    background-image: url(tick2.jpg);
+    background-size: cover;
+}
+.mbox{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-auto-rows: 100px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px ;
+}
+.box{
+    background-color: #009688;
+    border: 3px rgb(14 85 78) solid;
+    font-size: 70px;
+    border-radius: 20%;
+    font-family: cursive;
+    color:#b2ff00 ;
+}
+.player{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    margin: 20px 80px ;
+    font-size: 30px;
+}
+#x,#o{
+    text-align: center;
+    color: #efffb4;
+    font-size: 45px;
+    font-family: cursive;   
+}
+#player1,#player2{
+    color: #f1ffe6;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: xxx-large;
+    color: #efffb4;
+}
+.winner{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    color: #739b00;
+}
+#reset{
+    background-color: rgb(14 85 78);
+    color: azure;
+    font-size: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    border: rgb(14 85 78) solid 10px;
+}
